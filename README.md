@@ -27,4 +27,4 @@ Before running this application, ensure that you have the following prerequisite
 
 1. Clone the repository to your local machine:
 
-   git clone 
+   git clone https://github.com/CodingbyFaizan/Core-Java-Projects.git
