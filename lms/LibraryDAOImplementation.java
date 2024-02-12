@@ -209,7 +209,7 @@ public class LibraryDAOImplementation implements LibraryDAO {
     }
 
     public void updateTransaction(int transactionId, Transaction updatedTransaction) {
-        String query = "update transactions set user_id = ? , book_id = ? , borrow_date = ?, return_date = ?, due_date = ? where transaction_id = ? ";
+        String query = "update transactions set user_id = ? , book_id = ? , borrow_date = ?, due_date = ?, return_date = ? where transaction_id = ? ";
         try {
             PreparedStatement pst = con.prepareStatement(query);
             pst.setInt(1, updatedTransaction.getUserId());
